@@ -1,4 +1,4 @@
-//This was written during my 3rd week at Coding Dojo.  I intentionally wrote this as little JQuery as possible 
+//This was written during my 3rd week at Coding Dojo.  I intentionally wrote this with as little JQuery as possible 
 // to try and learn about how JQuery makes elements move.  I'm a better developer for understanding the working of JQuery.
 
 //As written, requires the following unordered list structure for proper execution:
@@ -17,7 +17,6 @@ function navSlide() {
 			$(this).children().css('color','#393536')
 			$(this).siblings().children().css('color','#393356')
 			selectLi(this);
-
 		});
 
 		var lastEle;
