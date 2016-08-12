@@ -9,7 +9,7 @@
 		// </li>
 		// ...
 		// </ul>
-
+navSlide();
 function navSlide() {
 	$(document).ready(function(){
 		//navmenu animation
