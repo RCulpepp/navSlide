@@ -10,7 +10,7 @@
 		// ...
 		// </ul>
 
-function navSlide() {}
+function navSlide() {
 	$(document).ready(function(){
 		//navmenu animation
 		$('li').click(function() { 
